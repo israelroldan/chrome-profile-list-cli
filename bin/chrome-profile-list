@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+const loog = require('loog')({
+    prefixStyle: 'ascii'
+});
+
+global.loog = loog;
+
+const Cli = require('../index');
+new Cli().run().catch(e=>loog.error(e.message ? e.message : e));

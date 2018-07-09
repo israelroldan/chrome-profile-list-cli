@@ -1,0 +1,42 @@
+{
+  "name": "chrome-profile-list-cli",
+  "version": "0.5.0",
+  "description": "Command line interface for chrome-profile-list",
+  "main": "index.js",
+  "scripts": {
+    "release": "standard-version",
+    "test": "mocha"
+  },
+  "bin": "bin/chrome-profile-list",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/israelroldan/chrome-profile-list-cli.git"
+  },
+  "keywords": [
+    "Chrome",
+    "Goolge",
+    "Chrome",
+    "Profile"
+  ],
+  "author": "Israel Roldan (chrome-profile-list-cli@isro.im)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/israelroldan/chrome-profile-list-cli/issues"
+  },
+  "homepage": "https://github.com/israelroldan/chrome-profile-list-cli#readme",
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
+  "devDependencies": {
+    "cz-conventional-changelog": "^2.1.0",
+    "standard-version": "^4.4.0"
+  },
+  "dependencies": {
+    "chrome-profile-list": "^0.6.0",
+    "loog": "^1.8.0",
+    "phylo": "^1.0.0-rc.4",
+    "switchit": "^1.0.8"
+  }
+}

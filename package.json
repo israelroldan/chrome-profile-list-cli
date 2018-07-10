@@ -1,6 +1,6 @@
 {
   "name": "chrome-profile-list-cli",
-  "version": "0.6.0",
+  "version": "1.0.0",
   "description": "Command line interface for chrome-profile-list",
   "main": "index.js",
   "scripts": {

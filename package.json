@@ -34,7 +34,7 @@
     "standard-version": "^4.4.0"
   },
   "dependencies": {
-    "chrome-profile-list": "^0.6.0",
+    "chrome-profile-list": "^1.0.0",
     "loog": "^1.8.0",
     "phylo": "^1.0.0-rc.4",
     "switchit": "^1.0.8"

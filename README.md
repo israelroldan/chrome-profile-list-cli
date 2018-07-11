@@ -3,12 +3,12 @@
 
 ## Usage
 ```
-npx chrome-profile-list-cli
+$ npx chrome-profile-list-cli
 ```
 
 ## Help page
 ```
-$ chrome-profile-list-cli
+$ chrome-profile-list-cli -h
 
   Command line interface for chrome-profile-list
 
